@@ -1,0 +1,13 @@
+# # config file version
+apiVersion: 1
+
+datasources:
+  - name: CloudWatch
+    type: cloudwatch
+    jsonData:
+      authType: keys
+      defaultRegion: us-east-1
+    secureJsonData:
+      accessKey: 
+      secretKey:
+    editable: true
